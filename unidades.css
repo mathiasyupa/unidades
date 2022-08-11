@@ -1,0 +1,134 @@
+  desactivar o activar par aver lo demas*/  * {
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+h2 {
+    background-color: #a22;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align:center ;
+    margin: 10px;
+    border-radius: 2em;
+    border: 10px inset rgb(57, 58, 56);
+    /*Mas bordes 
+    solid
+    dasher
+    double
+    groove
+    inset
+    outset
+    ridge*/
+    
+    box-shadow: 1px 4px 15px 0 #000;
+    text-shadow: 2px 2px 7px #000;
+    transform: rotate(10deg);
+
+}
+h6 {
+    margin: 2em;
+}
+
+.box-model__img {
+    border-radius: 2em;
+    border: 6px solid rgb(14, 2, 36);
+    margin: 1em;
+}
+
+div {
+    width: 120px;
+    height: 120px;
+    display: block;
+    position: absolute;
+    margin: 100px;
+}
+
+div {
+    display: block;
+    background-color: yellow;
+    position: absolute;
+}
+.contenedor {
+    position: relative;
+    border: 4px solid red;
+    margin: 50px auto;
+    height: 450px;
+    width: 450px;
+}
+
+
+
+.caja1 {
+    background: orange;
+    bottom: 0px;
+    right: 0px;
+}
+.caja2 {
+    background-color: green;
+    top: 0px;
+    right: 0px;
+    /*
+    position: relative;
+    top: 40px;  /* top y left son los as importantes*/
+    /*left: 20px;
+    /*z-index: 1;  z index hace que  un eemento que tenda position vaya por encima o por debajo de otro*/
+}
+.caja3 {
+background: pink;
+top: 0;
+}
+.caja4 {
+    bottom: 0px;
+background-color: aqua;
+}
+.caja5 {
+    background-color: purple;
+    bottom: 0px;
+    top: 0px;
+    right: 0;
+    left: 0px;
+}
+
+div div 
+{height: 75px;
+width: 75px;
+
+}
+
+/*
+
+POSITION
+1. static
+2. relative
+3. absolute
+4. fixed
+5. sticky
+
+
+.caja2 {
+    outline: 5px solid red;
+    position: relative;
+}
+
+
+/*.contact-form {
+    font-size: 25px;
+}
+
+.contact-form__h2 {
+    font-size: 2em;
+
+    color: red; 
+}
+    /* TAMBIEN SE USAN
+    line-height: 5;
+    font-weight: normal;
+    font-stretch: normal;
+    font-variant: small-caps;
+     PARA HACER UN ELEMENTO DE BLOQUE A LINEA
+
+    display: inline;
+    
+    */   
+/*pseudo elementos*/
